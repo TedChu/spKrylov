@@ -4,14 +4,8 @@ Krylov Methods for Large Spatial Datasets
 
 ## Installation
 This package can be installed directly from R by running the following code:
-```{r}
-library(devtools)
-install_github("liujl93/spKrylov")
-```
 
-## Downloads:
-Alternatively, you can download the binary file:
-- Package Source: [spKrylov_1.0.tar.gz](https://liujl93.github.io/files/spKrylov_1.0.tar.gz)
+## Download the binary file
 - Windows binaries: [spKrylov_1.0.zip](https://liujl93.github.io/files/spKrylov_1.0.zip)
 - OS X binaries: [spKrylov_1.0.tgz](https://liujl93.github.io/files/spKrylov_1.0.tgz)
 
