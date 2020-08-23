@@ -30,13 +30,6 @@ This package includes a data file `sim_n_4900rep_1delta_6`. It includes the foll
 - delta: only distances smaller than delta are recorded, used in nearest.dist()
 - dist_mat: distance matrix of train data, only distances smaller than delta are recorded, stored in compressed form (class: spam)
 
-To run this example, we will need the following `R` packages.
-- spatstat: runifpoint
-- RandomFields: RMexp, RMnugget, RFsimulate
-- spam/spam64: nearest.dist
-- Matrix: sparse Matrix manipulations
-- doRNG/foreach/doParallel: parallel computing support
-
 ###### Install Packages
 ```
 rm(list=ls(all=TRUE))
