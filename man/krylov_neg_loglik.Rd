@@ -1,8 +1,8 @@
-\name{krylov_loglik}
-\alias{krylov_loglik}
-\title{The function \code{krylov_loglik} is used to calculate the approximate negative log-likelihood function by Krylov methods.}
+\name{krylov_neg_loglik}
+\alias{krylov_neg_loglik}
+\title{The function \code{krylov_neg_loglik} is used to calculate the approximate negative log-likelihood function by Krylov methods.}
 \usage{
-krylov_loglik(theta = c(2, 0.2), y, X = NULL, dist_mat,
+krylov_neg_loglik(theta = c(2, 0.2), y, X = NULL, dist_mat,
   cov.model = "exponential", cov.taper = "wend1", delta = 2,
   ctrl = list(), gls = FALSE, nu = NULL)
 }
@@ -43,7 +43,7 @@ krylov_loglik(theta = c(2, 0.2), y, X = NULL, dist_mat,
 the negative log-likelihood.
 }
 \description{
-The function \code{krylov_loglik} is used to calculate the approximate negative log-likelihood function by Krylov methods.
+The function \code{krylov_neg_loglik} is used to calculate the approximate negative log-likelihood function by Krylov methods.
 }
 \examples{
 library(spKrylov)
