@@ -85,7 +85,7 @@ system.time(
     delta = delta,
     ctrl = list(
       cg.tol = 1e-6, cg.max_iter = 1000,
-      cg.precond = "Jacobi",
+      cg.precond = "no_precond",
       logdet.m = 30, logdet.nr = nr
     ),
     gls = FALSE
