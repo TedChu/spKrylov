@@ -8,7 +8,10 @@ This package can be installed directly from R by running the following code:
 library(devtools)
 install_github("liujl93/spKrylov")
 ```
+
+## Downloads:
 Alternatively, you can download the binary file:
+- Package Source: [spKrylov_1.0.tar.gz](https://liujl93.github.io/files/spKrylov_1.0.tar.gz)
 - Windows binaries: [spKrylov_1.0.zip](https://liujl93.github.io/files/spKrylov_1.0.zip)
 - OS X binaries: [spKrylov_1.0.tgz](https://liujl93.github.io/files/spKrylov_1.0.tgz)
 
@@ -80,7 +83,7 @@ system.time(
 lik2
 ```
 
-###### Find MLE 
+###### Find MLE
 ```
 set.seed(2019)
 n <- 70^2 # sample size
