@@ -1,0 +1,17 @@
+Package: spKrylov
+Type: Package
+Title: Krylov Method for Large Spatial Datasets
+Version: 1.0
+Date: 2019-05-14
+Author: Jialuo Liu
+Maintainer: Jialuo Liu <lolofter@gmail.com>
+Description: One paragraph description of what the package does
+       as one or more full sentences.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.1), spam (>= 2.2-2), spam64 (>= 2.2-2), Matrix
+        (>= 1.2-17), foreach (>= 1.4.0)
+LinkingTo: Rcpp, RcppEigen, RViennaCL, BH
+NeedsCompilation: yes
+Packaged: 2019-12-23 01:14:47 UTC; lolofter
+RoxygenNote: 7.1.1
+Depends: R (>= 3.5.0)
