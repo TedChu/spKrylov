@@ -10,7 +10,7 @@ Description: One paragraph description of what the package does
 License: GPL (>= 2)
 Imports: Rcpp (>= 0.11.0), spam (>= 2.2-2), spam64 (>= 2.2-2), Matrix
         (>= 1.2-17), foreach (>= 1.4.0), spNNGP (>= 0.1.4)
-LinkingTo: Rcpp, RcppEigen, BH, RViennaCL, spNNGP
+LinkingTo: Rcpp, RcppEigen, BH, RViennaCL
 NeedsCompilation: yes
 Packaged: 2019-12-23 01:14:47 UTC;
 RoxygenNote: 7.1.1
