@@ -50,7 +50,7 @@ krylov.rademacher <- function(n, nr, rad.seed = 2019) {
 krylov.logdet <- function(A, m, nr, rad.seed = 2019) {
   n <- nrow(A)
   r <- krylov.rademacher(n, nr, rad.seed = rad.seed)
-  g <- foreach(i = 1:nr, .combine = c) %dopar% {
+  g <- foreach(i = 1:nr, .combine = c) %do% {
     vcl_logdet(A, r[, i], m)
   }
   return(sum(g) * n / nr)

@@ -66,8 +66,6 @@ krylov_neg_loglik <- function(theta = c(2, 0.2),
     z <- vclCG_m(psi, y, cg.method, ctrl$cg.max_iter, ctrl$cg.tol)
     sigma2 <- crossprod(y, z) / n
   }
-  print(theta)
   loglik <- n / 2 * log(2 * pi) + n / 2 + 1 / 2 * logdet + n / 2 * log(sigma2)
-  print(loglik)
   return(loglik)
 }
